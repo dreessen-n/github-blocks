@@ -5,3 +5,19 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+h1 {
+    font-family: sans-serif;
+}
+
+.container {
+   background-color: grey; 
+}
+
+.row {
+    display: flex;
+}
+
+.block {
+
+}
