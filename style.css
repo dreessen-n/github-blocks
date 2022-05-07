@@ -10,6 +10,7 @@
    background-color: navajowhite; 
    width: 950px;
    padding: 30px 20px 20px 20px;
+   border-top: 3px solid black;
 }
 
 h1 {
@@ -23,20 +24,34 @@ h1 {
 
 .row1 {
     background-color: mediumseagreen;
+    justify-content: space-between;
+    padding: 15px;
 }
 
 .row2 {
     background-color: midnightblue;
+    justify-content: space-evenly;
+    padding: 15px;
 }
 
 .row3 {
     background-color: chocolate;
+    justify-content: space-between;
+    padding: 15px;
 }
 
 .block {
     justify-content: center;
 }
 
+.lnkGitHub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
 img {
     width: 200px;
 }
+
