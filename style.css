@@ -7,16 +7,30 @@
 }
 
 .container {
-   background-color: grey; 
+   background-color: navajowhite; 
    width: 950px;
+   padding: 30px 20px 20px 20px;
 }
 
 h1 {
     font-family: sans-serif;
+    text-align: center;
 }
 
 .row1, .row2, .row3 {
     display: flex;
+}
+
+.row1 {
+    background-color: mediumseagreen;
+}
+
+.row2 {
+    background-color: midnightblue;
+}
+
+.row3 {
+    background-color: chocolate;
 }
 
 .block {
