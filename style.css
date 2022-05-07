@@ -15,10 +15,14 @@ h1 {
     font-family: sans-serif;
 }
 
-.row {
+.row1, .row2, .row3 {
     display: flex;
 }
 
 .block {
+    justify-content: center;
+}
 
+img {
+    width: 200px;
 }
