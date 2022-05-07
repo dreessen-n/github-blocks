@@ -9,13 +9,15 @@
 .container {
    background-color: navajowhite; 
    width: 950px;
-   padding: 30px 20px 20px 20px;
+   padding: 20px;
    border-top: 3px solid black;
 }
 
 h1 {
     font-family: sans-serif;
     text-align: center;
+    font-size: 50px;
+    color: midnightblue;
 }
 
 .row1, .row2, .row3 {
@@ -26,18 +28,21 @@ h1 {
     background-color: mediumseagreen;
     justify-content: space-between;
     padding: 15px;
+    margin-top: 25px;
 }
 
 .row2 {
     background-color: midnightblue;
     justify-content: space-evenly;
     padding: 15px;
+    margin-top: 15px;
 }
 
 .row3 {
     background-color: chocolate;
     justify-content: space-between;
     padding: 15px;
+    margin-top: 15px;
 }
 
 .block {
@@ -55,3 +60,6 @@ img {
     width: 200px;
 }
 
+p {
+    color: midnightblue;
+}
